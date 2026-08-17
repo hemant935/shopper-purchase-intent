@@ -1,0 +1,42 @@
+{
+  "Logistic Regression": {
+    "Accuracy": 0.8504,
+    "AUC": 0.8962,
+    "Precision": 0.5116,
+    "Recall": 0.7487,
+    "F1": 0.6079,
+    "MCC": 0.5338
+  },
+  "Decision Tree": {
+    "Accuracy": 0.8508,
+    "AUC": 0.7054,
+    "Precision": 0.5192,
+    "Recall": 0.4948,
+    "F1": 0.5067,
+    "MCC": 0.419
+  },
+  "kNN": {
+    "Accuracy": 0.8674,
+    "AUC": 0.7829,
+    "Precision": 0.617,
+    "Recall": 0.3796,
+    "F1": 0.47,
+    "MCC": 0.4145
+  },
+  "Naive Bayes": {
+    "Accuracy": 0.6736,
+    "AUC": 0.7939,
+    "Precision": 0.2941,
+    "Recall": 0.7906,
+    "F1": 0.4287,
+    "MCC": 0.3249
+  },
+  "Random Forest (Ensemble)": {
+    "Accuracy": 0.8893,
+    "AUC": 0.9219,
+    "Precision": 0.6259,
+    "Recall": 0.7094,
+    "F1": 0.665,
+    "MCC": 0.6007
+  }
+}
