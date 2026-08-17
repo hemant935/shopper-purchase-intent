@@ -89,9 +89,11 @@ or run [`notebooks/training.ipynb`](notebooks/training.ipynb) — this is the no
 
 Live app: *(add the Streamlit Community Cloud URL after deploy)*
 
-The app loads the five pre-trained pipelines from `model/`. It does not retrain. Required UI:
+The app loads the five pre-trained pipelines from `model/`. It does not retrain. The dashboard includes:
 
-- CSV upload (test data only on the free tier)
-- Model dropdown
+- CSV upload, or one-click bundled `test_data.csv`
+- Model dropdown and a purchase-probability threshold slider
 - Accuracy, AUC, Precision, Recall, F1, MCC
-- Confusion matrix and classification report
+- Interactive confusion matrix, ROC curve, probability histogram, month breakdown
+- Classification report and a filterable session explorer
+- Hold-out comparison bars and a radar chart across all five models
