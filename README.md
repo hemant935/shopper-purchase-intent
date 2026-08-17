@@ -87,7 +87,7 @@ or run [`notebooks/training.ipynb`](notebooks/training.ipynb) — this is the no
 
 ## Streamlit app
 
-Live app: *(add the Streamlit Community Cloud URL after deploy)*
+Live app: https://shopper-purchase-intent-ldzpxpmyhd2tg5ytn7kcnt.streamlit.app/
 
 The app loads the five pre-trained pipelines from `model/`. It does not retrain. The dashboard includes:
 
